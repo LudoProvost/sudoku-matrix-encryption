@@ -11,7 +11,7 @@ M = 3
 x_0 = 0.4
 r = 3.8
 encrypting = False
-image_name = "lenna.png"
+image_name = "peppers.jpg"
 
 matrix = ref_matrix.get_matrix(x_0, r, M)
 

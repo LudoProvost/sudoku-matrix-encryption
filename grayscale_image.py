@@ -10,19 +10,21 @@ def show_encrypt(image_name, matrix, M, number_of_blocks):
 
     encrypted_img = Image.fromarray(encrypt(image_data, matrix, M)).convert('L')
 
-    encrypted_img.save('encryption/' + image_name.split(".")[0] + '_grayscale.png')
+    encrypted_img.save('encrypted/' + image_name.split(".")[0] + '_grayscale.png')
 
     encrypted_img.show()
 
 
 def show_decrypt(image_name, matrix, M):
-    image = Image.open('encryption/' + image_name.split(".")[0] + '_grayscale.png')
+    image = Image.open('encrypted/' + image_name.split(".")[0] + '_grayscale.png')
 
     image_data = np.asarray(image)
 
-    decryptedImg = Image.fromarray(decrypt(image_data, matrix, M))
+    decrypted_img = Image.fromarray(decrypt(image_data, matrix, M)).convert('L')
 
-    decryptedImg.show()
+    decrypted_img.save('decrypted/' + image_name.split(".")[0] + '_grayscale.png')
+
+    decrypted_img.show()
 
 
 def encrypt(image_data, rescaled_ref_matrix, M):
