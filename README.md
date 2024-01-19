@@ -12,9 +12,7 @@ Lossless image encryption and decryption algorithms. This project could not have
 | Original image | Encryption | Decryption |
 |----------------|------------|------------|
 |![cameraman](https://github.com/LudoProvost/sudoku-matrix-encryption/assets/70982826/5031eb5c-dcc0-477f-9b46-79539480d8f1)|![cameraman_encrypt](https://github.com/LudoProvost/sudoku-matrix-encryption/assets/70982826/fda01066-b95b-40aa-b169-0a5147911a46)|![cameraman_decrypt](https://github.com/LudoProvost/sudoku-matrix-encryption/assets/70982826/bd4ab255-d72b-492e-997b-5969547be46f)|
-|![peppers](https://github.com/LudoProvost/sudoku-matrix-encryption/assets/70982826/c4a7eb73-3439-43c1-a40b-7b425dd5f33e)
-|![peppers_encrypt](https://github.com/LudoProvost/sudoku-matrix-encryption/assets/70982826/6dc8dd5a-2d7d-41a4-9243-0c9f0ad41012)
-|![peppers_decrypt](https://github.com/LudoProvost/sudoku-matrix-encryption/assets/70982826/6f142444-95d7-45e3-ade5-ef07dfd63ac3)|
+|![peppers](https://github.com/LudoProvost/sudoku-matrix-encryption/assets/70982826/c4a7eb73-3439-43c1-a40b-7b425dd5f33e)|![peppers_encrypt](https://github.com/LudoProvost/sudoku-matrix-encryption/assets/70982826/6dc8dd5a-2d7d-41a4-9243-0c9f0ad41012)|![peppers_decrypt](https://github.com/LudoProvost/sudoku-matrix-encryption/assets/70982826/6f142444-95d7-45e3-ade5-ef07dfd63ac3)|
 
 ## How to use
 1. In the same direct as main.py, create 3 folders and name them as follows: *images*, *decrypted*, and *encrypted*.
